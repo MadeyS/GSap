@@ -1,0 +1,130 @@
+/*height :100% indicates the height of the body section is full page height
+width :100% indicates the height of the body section is full page weight*/
+html, body {
+  height: 100%;
+  /*width: 50%;*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+  width: 500px;
+  /*background: lightskyblue;*/
+  margin: auto;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+circle {
+  fill:#88ce02;
+}
+
+h5 {
+  color:cadetblue;
+}
+#rect text {
+  pointer-events: none;
+}
+
+body {
+  background-color:floralwhite;
+  color: #999;
+  font-family: "Signika Negative", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 17px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.dynamicsvg{
+  margin-top: 10px;
+  background-color: white;
+  opacity: 1;
+  stroke:red;
+  fill:transparent;
+  
+}
+svg {
+  overflow: visible;
+  height: 100%;
+  display: block;
+  
+}
+
+curvecontainer{
+background-color:lightskyblue;
+}
+
+svg-number-line {
+  overflow: visible;
+  height: 50%;
+}
+
+path {
+  stroke-width: 2;
+  stroke: gray;
+}
+
+path-number-line {
+  stroke-width: 2;
+  stroke: white;
+}
+
+a {
+  color: #88ce02;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#div {
+  width: 120px;
+  height: 60px;
+  pointer-events: none;
+  background-color: #aa00ee;
+  color: black;
+  text-align: center;
+  line-height: 60px;
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  font-size: 32px;
+}
+
+rect.btn {
+  stroke:antiquewhite;
+  fill:dodgerblue;
+  fill-opacity:1;
+  stroke-opacity:1;
+}
+
+
+
+.gsap-3-logo {
+    width: 20vw;
+    max-width: 150px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+}
